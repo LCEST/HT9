@@ -1,7 +1,8 @@
 
 /**
- *map red black
- * @author Luis
+ *Clase con  Red black Map implementando MAP
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class MRB<K extends Comparable<K>, V> implements MAP<K, V> {
     private RB<K,V> data;

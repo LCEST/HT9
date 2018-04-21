@@ -1,8 +1,10 @@
 import java.util.NoSuchElementException;
 
 /**
- *
- * @author Luis
+ * Clase con Red Black Tree
+ * @author Luis Esturban
+ * @author Gustavo de leon
+ * Extraido de https://algs4.cs.princeton.edu/33balanced/RedBlackBST.java.html  
  */
 public class RB<Key extends Comparable<Key>, Value> {
 

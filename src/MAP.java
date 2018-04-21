@@ -1,8 +1,9 @@
 import java.util.Set;
 
 /**
- * mapas
- * @author Luis
+ * Interfaz de MAP
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public interface MAP<K,V>
 {

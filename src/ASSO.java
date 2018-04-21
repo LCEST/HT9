@@ -1,7 +1,8 @@
 import java.util.Map;
 /**
- *association
- * @author Luis
+ *Clase con las associations implemetnando Map.Entry
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class ASSO<K extends Comparable<K>,V> implements Map.Entry<K,V>
 {

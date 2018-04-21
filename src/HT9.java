@@ -5,8 +5,8 @@ import java.util.Scanner;
 import java.util.*;
 
 /**
- *
- * @author Luis
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class HT9 {
     public static void main(String[] args) throws IOException {
@@ -18,7 +18,7 @@ public class HT9 {
         String tipoMapa = "";
 
         System.out.println("Bienvenido al traductor");
-        System.out.println("Ingrese el tipo de arbol que desea usar:");
+        System.out.println("Ingrese el numero de arbol que desea usar:");
         System.out.println("1)RedBlack");
         System.out.println("2)Splay");
         tipoMapa = ingreso.nextLine();
@@ -27,7 +27,7 @@ public class HT9 {
         MAP<String, ASSO<String, String>> diccionario = MF.getMap(tipoMapa);
 
         System.out.println("Seleccione el archivo que contiene el Diccionario");
-        System.out.println("Presiona ENTER para continuar");
+        System.out.println("Presiona ENTER para continuar y minimiza netbeans si no sale el busscador de archivos");
         ingreso.nextLine();
         
         JFileChooser chooser = new JFileChooser();
@@ -68,7 +68,7 @@ public class HT9 {
         }
 
       
-        System.out.println("Seleccione el archivo que contiene el texto a traducir");
+        System.out.println("Seleccione el archivo que contiene el texto a traducir si no saleel buscador minimizar netbeans");
         System.out.println("Presiona ENTER para continuar");
         ingreso.nextLine();
         JFileChooser chooser2 = new JFileChooser(System.getProperty("java.class.path"));

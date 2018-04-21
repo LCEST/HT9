@@ -6,7 +6,7 @@ import java.util.Map.Entry;
  * @author Gustavo
  * @param <K>
  * @param <V> 
- * Clase splay entry
+ * Clase Con Splay Entry implementando Entry<K,V>
  */
 public class SE<K extends Comparable<K>,V> implements Entry<K,V>
 {

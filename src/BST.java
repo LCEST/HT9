@@ -3,8 +3,9 @@ import java.util.List;
 import java.util.Map.Entry;
 
 /**
- *binary search tree
- * @author Luis
+ * Clase implementacion binary search tree extendido de Comparable
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class BST<E extends Comparable<E>>
 {

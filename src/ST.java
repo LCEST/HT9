@@ -1,7 +1,9 @@
 
 /**
- *
- * @author Luis
+ * Clase con Splay Tree Extendiendo Binary Search Tree
+ * @author Luis Esturban
+ * @author Gustavo de leon
+ * Extraido de https://algs4.cs.princeton.edu/33balanced/SplayBST.java.html
  */
 public class ST<E extends Comparable<E>> 
         extends BST<E>

@@ -1,7 +1,8 @@
 
 /**
- *map factory
- * @author Luis
+ *Clase con el Map factory
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class MF {
     

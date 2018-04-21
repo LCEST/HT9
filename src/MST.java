@@ -2,8 +2,9 @@ import java.util.Map.Entry;
 
 
 /**
- * map splay tree
- * @author Luis
+ * Clase con el Splay Tree Map implementando MAP
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class MST<K extends Comparable<K>,V> implements MAP<K, V>{
     protected ST<SE<K,V>> tree;

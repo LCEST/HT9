@@ -1,7 +1,8 @@
 
 /**
- * binary tree
- * @author Luis
+ * Clase del Binary tree
+ * @author Luis Esturban
+ * @author Gustavo de leon
  */
 public class BT<E>
 {
