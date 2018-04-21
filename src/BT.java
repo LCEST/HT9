@@ -1,6 +1,6 @@
 
 /**
- *
+ * binary tree
  * @author Luis
  */
 public class BT<E>

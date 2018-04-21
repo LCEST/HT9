@@ -3,6 +3,10 @@ import java.util.Map.Entry;
 /**
  *
  * @author Luis
+ * @author Gustavo
+ * @param <K>
+ * @param <V> 
+ * Clase splay entry
  */
 public class SE<K extends Comparable<K>,V> implements Entry<K,V>
 {

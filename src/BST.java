@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map.Entry;
 
 /**
- *
+ *binary search tree
  * @author Luis
  */
 public class BST<E extends Comparable<E>>

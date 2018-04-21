@@ -2,7 +2,7 @@ import java.util.Map.Entry;
 
 
 /**
- *
+ * map splay tree
  * @author Luis
  */
 public class MST<K extends Comparable<K>,V> implements MAP<K, V>{

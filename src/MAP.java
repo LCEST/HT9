@@ -1,7 +1,7 @@
 import java.util.Set;
 
 /**
- *
+ * mapas
  * @author Luis
  */
 public interface MAP<K,V>

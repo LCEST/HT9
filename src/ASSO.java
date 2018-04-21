@@ -1,6 +1,6 @@
 import java.util.Map;
 /**
- *
+ *association
  * @author Luis
  */
 public class ASSO<K extends Comparable<K>,V> implements Map.Entry<K,V>
